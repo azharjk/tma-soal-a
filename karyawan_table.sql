@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS karyawan (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  jabatan VARCHAR(255),
+  penilaian INT 
+);
