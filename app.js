@@ -28,7 +28,7 @@ $(document).ready(function () {
       });
 
       renderChart('#bar-chart', 'bar', { labels, penilaian, colors });
-      renderChart('#line-chart', 'line', { labels, penilaian, colors });
+      renderChart('#line-chart', 'pie', { labels, penilaian, colors });
     },
     ajax: {
       url: '/api_json.php',
